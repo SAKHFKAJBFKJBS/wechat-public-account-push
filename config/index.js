@@ -7,12 +7,12 @@ const USER_CONFIG = {
   // 公众号APP_ID
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_ID: '',
+  APP_ID: 'wx79d79dc32155e4a3',
 
   // 公众号APP_SECRET
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_SECRET: '',
+  APP_SECRET: '3e4f308e11b93a8c92b9e3c20692bdf5',
 
   // 是否给文字设置多彩颜色, 和emoji不兼容
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
@@ -25,11 +25,11 @@ const USER_CONFIG = {
 
     /** 节假日 */
     // 下一休息日综合提醒
-    holidaytts: true,
+    holidaytts: false,
 
     /** 每日N句 */
     // 金山每日一句
-    CIBA: true,
+    CIBA: false,
     // 每日一言
     oneTalk: false,
     // 土味情话(彩虹屁)
@@ -69,11 +69,11 @@ const USER_CONFIG = {
       // 你想对他发送的模板消息的模板ID
       useTemplateId: '',
       // 所在省份
-      province: '广东',
+      province: '江苏',
       // 所在城市
-      city: '肇庆',
+      city: '常熟',
       // 新历生日, 仅用作获取星座运势, 格式必须
-      horoscopeDate: '12-27',
+      horoscopeDate: '8-18',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
@@ -82,7 +82,7 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '老婆', year: '1996', date: '09-09',
+          type: '*生日', name: '老婆', year: '2000', date: '08-18',
         },
         {
           type: '节日', name: '结婚纪念日', year: '2020', date: '09-03',
@@ -98,7 +98,7 @@ const USER_CONFIG = {
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2022-09-08' },
+        { keyword: 'love_day', date: '2021-07-17' },
         // 结婚纪念日
         { keyword: 'marry_day', date: '2022-09-09' },
         // 退伍日
@@ -239,9 +239,9 @@ const USER_CONFIG = {
   /** 天气相关 */
 
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: '广东',
+  PROVINCE: '江苏',
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: '惠州',
+  CITY: '常熟',
 
   /** 重要节日相关 */
 
@@ -265,7 +265,7 @@ const USER_CONFIG = {
   FESTIVALS: [
     // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
     {
-      type: '*生日', name: '老婆', year: '1996', date: '09-09', isShowAge: true,
+      type: '*生日', name: '老婆', year: '1996', date: '08-18', isShowAge: true,
     },
     {
       type: '节日', name: '结婚纪念日', year: '2020', date: '09-03',
