@@ -25,13 +25,13 @@ const USER_CONFIG = {
 
     /** 节假日 */
     // 下一休息日综合提醒
-    holidaytts: false,
+    holidaytts: true,
 
     /** 每日N句 */
     // 金山每日一句
-    CIBA: false,
+    CIBA: true,
     // 每日一言
-    oneTalk: false,
+    oneTalk: true,
     // 土味情话(彩虹屁)
     earthyLoveWords: false,
     // 朋友圈文案
@@ -65,9 +65,9 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '老婆0',
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'oOqrO6i1R8H5iZSkJtxw1yxItfZQ',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: '',
+      useTemplateId: 'VqjbblCSUp3XeGlayLy34HftL8XxKKYzyBVBR9NhluE',
       // 所在省份
       province: '江苏',
       // 所在城市
