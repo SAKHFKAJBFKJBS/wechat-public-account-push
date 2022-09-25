@@ -186,9 +186,9 @@ const USER_CONFIG = {
       ],
       customizedDateList: [
       
-        { keyword: 'love_day', date: '2022-07-17' },
+        { keyword: 'love_day', date: '2021-07-17' },
        
-        { keyword: 'marry_day', date: '2022-07-17' }
+        { keyword: 'marry_day', date: '2021-07-17' }
       ],
       courseSchedule: null
     },
