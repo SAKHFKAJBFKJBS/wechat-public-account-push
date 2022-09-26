@@ -194,15 +194,23 @@ const USER_CONFIG = {
     },
     {
       name: '老婆2',
-      id: '',
-      useTemplateId: '',
-      province: '',
-      city: '',
-      horoscopeDate: '',
-      horoscopeDateType: '',
+      id: 'oOqrO6i1R8H5iZSkJtxw1yxItfZQ',
+      useTemplateId: 'VqjbblCSUp3XeGIayLy34HftL8XxKKYzyBVBR9NhIuE',
+      province: '江苏',
+      city: '苏州',
+      horoscopeDate: '04-18',
+      horoscopeDateType: '今日',
       openUrl: 'https://wangxinleo.cn',
-      festivals: [],
-      customizedDateList: [],
+      festivals: [
+       {
+          type: '节日', name: '恋爱纪念日', year: '2021', date: '07-17',
+        }
+      ],
+      customizedDateList: [
+       { keyword: 'love_day', date: '2021-07-17' },
+       
+        { keyword: 'marry_day', date: '2021-07-17' }
+      ],
       courseSchedule: null
     },
     {
